@@ -1,0 +1,24 @@
+{
+  "name": "inject-inline-svg",
+  "version": "0.0.0",
+  "description": "auto-embed inline svg from .svg files using gulp-inject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiyopikko/inject-inline-svg.git"
+  },
+  "author": "kiyopikko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiyopikko/inject-inline-svg/issues"
+  },
+  "homepage": "https://github.com/kiyopikko/inject-inline-svg",
+  "devDependencies": {
+    "fileset": "^0.1.5",
+    "gulp": "^3.8.11",
+    "gulp-inject": "^1.2.0"
+  }
+}
