@@ -16,7 +16,7 @@ module.exports = function(gulp) {
     /*
 
     usage:
-    <!-- (file-to-path)/(filename-without-extension):svg --><!-- endinject -->
+    <!-- (path-to-file)/(filename-without-extension):svg --><!-- endinject -->
 
     example:
     [/asset/img/circle.svg]
