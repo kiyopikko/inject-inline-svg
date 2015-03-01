@@ -33,7 +33,7 @@ module.exports = function(gulp) {
             return file.contents.toString();
         }
 
-        var htmlSrc = gulp.src('src/**/*.html');
+        var htmlSrc = gulp.src(htmlPath);
 
 
         fileset(svgPath, function(err, files) {
