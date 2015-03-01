@@ -1,6 +1,6 @@
 module.exports = function(gulp) {
     // node module
-    var path = require('path');
+    var parsePath = require('parse-filepath');
     var fileset = require('fileset');
 
     // gulp module
@@ -42,7 +42,7 @@ module.exports = function(gulp) {
 
             for (var i = 0; i < files.length; i++) {
 
-                extension = path.extname(files[i]);
+                extension = parsePath(files[i]).extname;
                 extnameFiles = files[i].replace(extension, "");
 
                 htmlSrc = htmlSrc.pipe(inject(gulp.src(files[i]), {

@@ -19,6 +19,7 @@
   "devDependencies": {
     "fileset": "^0.1.5",
     "gulp": "^3.8.11",
-    "gulp-inject": "^1.2.0"
+    "gulp-inject": "^1.2.0",
+    "parse-filepath": "^0.5.0"
   }
 }
