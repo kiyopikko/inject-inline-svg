@@ -9,6 +9,7 @@ module.exports = function(gulp) {
     // path
     var svgPath = "src/img/**/*.svg";
     var htmlPath = "src/**/*.html";
+    var destPath = "dest/";
 
 
     // injectsvg
@@ -51,7 +52,7 @@ module.exports = function(gulp) {
 
             };
 
-            htmlSrc.pipe(gulp.dest('dest/'));
+            htmlSrc.pipe(gulp.dest(destPath));
 
         });
 
