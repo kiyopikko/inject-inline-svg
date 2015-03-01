@@ -22,3 +22,7 @@ Output:
 ```html
 <!-- asset/img/circle:svg --><svg>...</svg><!-- endinject -->
 ```
+
+## Reference
+
+- **[gulp-inject](https://www.npmjs.com/package/gulp-inject)**
